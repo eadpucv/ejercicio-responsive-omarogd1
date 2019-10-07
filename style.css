@@ -1,0 +1,17 @@
+.site-header {
+  background: rgba( 255, 0, 0, 0.15 );
+}
+.site-nav{
+  background: rgba( 0, 255, 0, 0.15 );
+}
+.site-main {
+  background: #ffc;
+}
+.hentry {
+  border: 2px dashed black;
+  margin: 1rem;
+  padding: 1rem;
+}
+footer {
+ background: rgba( 0, 0, 255, 0.15 ); 
+}
