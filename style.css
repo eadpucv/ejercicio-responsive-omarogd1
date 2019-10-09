@@ -1,14 +1,14 @@
 body{
-font-family: Arial, Helvetica, sans-serif;
-display: grid;
-grid-template-columns: 20% auto 20%;
-grid-template-rows: auto auto auto auto;
+ font-family: Arial, Helvetica, sans-serif;
+ display: grid;
+ grid-template-columns: 20% auto 20%;
+ grid-template-rows: auto auto auto auto;
 }
 .site-header {
   background: rgba( 255, 0, 0, 0.15 );
   grid-column: 1/4;
-  padding: 12px;
   margin-bottom: 10px;
+  padding: 12px;
   grid-row: 1/2;
 }
 .site-nav{
@@ -42,7 +42,6 @@ footer {
  background: rgba( 0, 0, 255, 0.15 ); 
  padding: 12px;
  grid-column: 1/4;
- 
  grid-row: 4/5;
 }
 .hola{
