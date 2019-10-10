@@ -28,10 +28,18 @@ li{
   display: inline-flex;
   flex-grow: 1;
 }
-.site-main {
+.fondo{
   background: #ffc;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+.site-main {
   grid-column: 2/3;
   grid-row: 3/4;
+}
+.articulos{
+  display: flex;
+  padding-bottom: 30px;
 }
 .hentry {
   border: 2px dashed black;
@@ -43,18 +51,4 @@ footer {
  padding: 12px;
  grid-column: 1/4;
  grid-row: 4/5;
-}
-.hola{
-  display: flex;
-  padding-bottom: 30px;
-}
-.uno{
-  background: #ffc;
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-.dos{
-  background: #ffc;
-  grid-column: 3/4;
-  grid-row: 3/4;
 }
